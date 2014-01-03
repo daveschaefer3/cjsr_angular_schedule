@@ -1,7 +1,7 @@
-cjsr_angular_schedule
+Cjsr Angular Schedule
 =====================
 
-A project for converting the online schedule for CJSR 88.5FM, Alberta, Canada's first campus radio station, to the AngularJS framework.
+An online schedule for CJSR 88.5FM, Alberta, Canada's first campus radio station.
 
 This project will convert https://github.com/daveschaefer3/cjsr_schedule to an AngularJS project.
 
