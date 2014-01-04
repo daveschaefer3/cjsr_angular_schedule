@@ -1,0 +1,30 @@
+[
+  {
+  	"theDay": "sun", 
+  	"fullDay": "Sunday"
+  },
+  {
+  	"theDay": "mon", 
+  	"fullDay": "Monday"
+  },
+  {
+  	"theDay": "tues", 
+  	"fullDay": "Tuesday"
+  },
+  {
+  	"theDay": "wed", 
+  	"fullDay": "Wednesday"
+  },
+  {
+  	"theDay": "thurs", 
+  	"fullDay": "Thursday"
+  },
+  {
+  	"theDay": "fri", 
+  	"fullDay": "Friday"
+  },
+  {
+  	"theDay": "sat", 
+  	"fullDay": "Saturday"
+  }
+]

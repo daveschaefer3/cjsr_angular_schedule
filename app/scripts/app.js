@@ -1,5 +1,6 @@
 'use strict';
 
+/* App Module */
 angular.module('cjsrAngularScheduleApp', [])
   .config(function ($routeProvider) {
     $routeProvider

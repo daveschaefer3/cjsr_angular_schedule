@@ -1,0 +1,37 @@
+[
+  {
+  	"colour": "eclectic", 
+  	"label": "Eclectic", 
+  	"description": "What CJSR is famous for! A little bit of everything."
+  },
+  {
+  	"colour": "news", 
+  	"label": "Spoken Word / News", 
+  	"description": "Everything from our award winning news programming to talk shows, sports, lectures, even stand-up comedy."
+  },
+  {
+  	"colour": "roots", 
+  	"label": "Roots", 
+  	"description": "Traditional & modern folk, bluegrass, blues, country & western and everything in between."
+  },
+  {
+  	"colour": "electronic", 
+  	"label": "Hip-Hop / Electronic", 
+  	"description": "Beat based programming, from the many genres of electronic to the finest rap and hip-hop shows in the city."
+  },
+  {
+  	"colour": "cultural", 
+  	"label": "Cultural", 
+  	"description": "CJSR features representation from many of Edmonton's fine cultural communities, and is always welcoming more!"
+  },
+  {
+  	"colour": "loud", 
+  	"label": "Loud", 
+  	"description": "Aggressive, punk, metal, industrial. For those with an indelicate sensibility..."
+  },
+  {
+  	"colour": "specialty", 
+  	"label": "Specialty", 
+  	"description": "Everything else! Shows that have a specific genre focus that you won't find anywhere else on your dial."
+  }
+]
