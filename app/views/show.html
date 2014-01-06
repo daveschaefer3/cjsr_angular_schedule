@@ -1,0 +1,9 @@
+<span ng-repeat="show in shows
+								track by show.id" ng-switch on="show.bbc">
+	
+	<span ng-switch-when="true"class="schedShow bbc start-{{start}}" id="{{day}}-{{daysId}}" data-toggle="modal" data-target="#featureModal"></span>
+	
+	<span ng-switch-default class="schedShow show-style start-{{show.start}} {{show.colour}}" id="{{show.day}}-{{show.daysId}}" data-toggle="modal" data-target="#featureModal">
+  	{{show.name}}
+	</span>
+</span>

@@ -1,14 +1,19 @@
 'use strict';
 
 /* App Module */
-angular.module('cjsrAngularScheduleApp', [])
-  .config(function ($routeProvider) {
+var cjsrScheduleApp = angular.module('cjsrScheduleApp', [
+  'ngRoute',
+  'cjsrControllers'
+]);
+  
+cjsrScheduleApp.config(['$routeProvider',
+  function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/show.html',
         controller: 'MainCtrl'
-      })
-      .otherwise({
+      }).
+      otherwise({
         redirectTo: '/'
       });
-  });
+}]);

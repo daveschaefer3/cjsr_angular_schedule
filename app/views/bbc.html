@@ -1,0 +1,5 @@
+<span ng-repeat="show in shows">
+	<span ng-if=" `show.bbc == true` ">
+		<span class="schedShow bbc start-{{show.start}}" id="{{show.day}}-{{show.daysId}}" data-toggle="modal" data-target="#featureModal">{{show.name}}</span>
+	</span>
+</span>

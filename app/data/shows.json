@@ -10,7 +10,8 @@
     "description": "Musica Nova takes a journey of discovery through one thousand years of classical music history. Canadian composers are featured regularly along with occasional surprises of jazz and world music.",
     "email": "musicanova@cjsr.com",
     "genre": "Classical",
-    "colour": "specialty"
+    "colour": "specialty",
+    "bbc": false
   },
   {
     "id": 2,

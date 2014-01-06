@@ -1,7 +1,9 @@
 'use strict';
 
-angular.module('cjsrAngularScheduleApp')
-  .controller('MainCtrl', function ($scope, $http) {
+var cjsrControllers = angular.module('cjsrControllers', []);
+  
+cjsrControllers.controller('MainCtrl', ['$scope', '$http', 
+  function($scope, $http) {
     $http.get('data/colors.json').success(function(data) {
     	$scope.colours = data;
     });
@@ -14,10 +16,5 @@ angular.module('cjsrAngularScheduleApp')
     	$scope.shows = data;
     });
 
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-
-  });
+    console.log('test');
+}]);
